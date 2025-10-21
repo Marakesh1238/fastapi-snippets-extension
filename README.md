@@ -70,3 +70,21 @@ app = FastAPI()
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
+
+
+## 🚀 Installation
+
+### From GitHub Releases:
+1. Download the latest `.vsix` file from [Releases](https://github.com/Marakesh1238/fastapi-snippets-extension/releases)
+2. In VS Code: `Ctrl+Shift+P` → **"Extensions: Install from VSIX"**
+3. Select the downloaded file
+4. Reload VS Code when prompted
+
+### Manual Installation:
+```bash
+git clone https://github.com/Marakesh1238/fastapi-snippets-extension
+cd fastapi-snippets-extension
+vsce package
+code --install-extension fastapi-snippets-*.vsix
+```
