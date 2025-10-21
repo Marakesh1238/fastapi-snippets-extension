@@ -1,0 +1,42 @@
+{
+  "name": "fastapi-snippets",
+  "displayName": "FastAPI Snippets",
+  "description": "Collection of useful snippets for FastAPI development",
+  "version": "1.0.0",
+  "publisher": "YourName",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "fastapi",
+    "python",
+    "snippets",
+    "rest-api",
+    "backend"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#009688",
+    "theme": "dark"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/python.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fastapi-snippets"
+  },
+  "homepage": "https://github.com/yourusername/fastapi-snippets",
+  "bugs": {
+    "url": "https://github.com/yourusername/fastapi-snippets/issues"
+  },
+  "license": "MIT"
+}
